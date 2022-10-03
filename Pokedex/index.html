@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+    <title>Pokedex</title>
+</head>
+<body>
+    <div class="header">
+        <img class= 'wave' src="img/wave.svg" alt="wave"></img>
+        <div>
+            <img class="logo" src="img/pokemon.png" alt="">
+        </div>
+        <div class="search-bar">
+            <input class="text" type="text" placeholder="Find your pokemon">
+            <button class = "btn">Search</button>
+        </div>
+        
+    </div>
+
+    <div class="error hide">
+        <h1>Sorry Pokemon Not Found</h1>
+        <p>Try Search Again</p>
+    </div>
+
+    <div class="pokemon">
+        <div class="pokemon-image"></div>
+        <div class="description hide">
+            <div class="types">
+                <h1 class="pokemon-name"></h1>
+                <p class="type"></p>
+                <p class="type2"></p>
+            </div>
+            <p class="info"></p>
+            <div class="description-box hide">
+                
+                <div class="size">
+                    <p>Height:</p>
+                    <p class="height"></p>
+                    <p>Weight:</p>
+                    <p class="weight"></p>
+                </div>
+                <div>
+                    <h4>Base Stats</h4>
+                    <ul>
+                        <li>HP: <span class="hp"></span></li>
+                        <li>Attack: <span class="attack"></span></li>
+                        <li>Defense: <span class="defense"></span></li>
+                        <li>Sp. Atk: <span class="spatk"></span></li>
+                        <li>Sp. Def: <span class="spdef"></span></li>
+                        <li>Speed: <span class="speed"></span></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+</body>
+</html>
